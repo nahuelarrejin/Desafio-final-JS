@@ -1,0 +1,52 @@
+.bootstrap-iso .formden_header h2,
+.bootstrap-iso .formden_header p,
+.bootstrap-iso form {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.bootstrap-iso form button,
+.bootstrap-iso form button:hover {
+  color: white !important;
+}
+
+.asteriskField {
+  color: red;
+}
+
+.help-block {
+  color: #989595;
+  font-size: small;
+}
+
+input::placeholder {
+  font-size: small;
+  opacity: 0;
+}
+/* Cambio de color de seleccion */
+.form-control:focus {
+  border-color: #0abccb;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #0abccb;
+}
+/* no mostrar barra horizontal */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.carrito {
+  float: left;
+  padding: 10px;
+}
+.popup strong {
+  color: #008378;
+}
+
+label {
+  color: #0abccb
+}
+
+.radio {
+  color: gray;
+}
+
+
